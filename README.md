@@ -14,13 +14,13 @@ URL curso: <https://platzi.com/cursos/software-seguro/>
 docker network create --driver=bridge curso-software-seguro-network
 ```
 
-### Build
+### Crear imagen aplicación GO
 
 ```bash
 docker build -t curso-software-seguro:latest .
 ```
 
-### Run
+### Desplegar contenedores
 
 #### Desplegar contenedor aplicación GO
 
