@@ -1,7 +1,5 @@
 # Curso de Ciberseguridad para Desarrollo Web
 
-[[_TOC_]]
-
 ## Introducción
 
 Implementa buenas prácticas de ciberseguridad en aplicaciones web: protege datos, controla accesos, automatiza pruebas, gestiona secretos y roles con AWS, Auth0, Terraform y GitHub Actions.
