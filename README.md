@@ -1,6 +1,12 @@
 # Curso de Ciberseguridad para Desarrollo Web
 
-<https://platzi.com/cursos/software-seguro/>
+[[_TOC_]]
+
+## Introducción
+
+Implementa buenas prácticas de ciberseguridad en aplicaciones web: protege datos, controla accesos, automatiza pruebas, gestiona secretos y roles con AWS, Auth0, Terraform y GitHub Actions.
+
+URL curso: <https://platzi.com/cursos/software-seguro/>
 
 ## Docker
 
