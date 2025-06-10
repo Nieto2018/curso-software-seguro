@@ -35,5 +35,3 @@ docker run -it --rm \
   -e NGROK_AUTHTOKEN=<token> \
   ngrok/ngrok http curso-software-seguro-app:8080/hello
 ```
-
-# curso-software-seguro
