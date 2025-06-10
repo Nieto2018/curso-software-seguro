@@ -7,7 +7,6 @@
 ### Crear red
 
 ```bash
-# docker network create --driver=bridge --subnet=192.170.1.0/24 --ip-range=192.170.1.0/24 --gateway=192.170.1.254  gitlab-ci
 docker network create --driver=bridge curso-software-seguro-network
 ```
 
@@ -26,12 +25,6 @@ docker run -it --rm \
   --network curso-software-seguro-network \
   --name curso-software-seguro-app \
   curso-software-seguro:latest
-
-docker run -it --rm \
-  --network curso-software-seguro-network \
-  --name curso-software-seguro-app \
-  -p 8080:8080 \
-  curso-software-seguro:latest
 ```
 
 #### Desplegar contenedor Ngrok
@@ -39,7 +32,8 @@ docker run -it --rm \
 ```bash
 docker run -it --rm \
   --network curso-software-seguro-network \
-  -e NGROK_AUTHTOKEN=1wo3JQxO9j3aiOeJep5dm69chSP_737gTXsZ5GuHiJRwtRayu \
+  -e NGROK_AUTHTOKEN=<token> \
   ngrok/ngrok http curso-software-seguro-app:8080/hello
 ```
+
 # curso-software-seguro
